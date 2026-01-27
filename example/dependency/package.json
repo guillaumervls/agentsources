@@ -1,0 +1,13 @@
+{
+  "name": "dependency",
+  "private": true,
+  "main": "index.js",
+  "agentsources": {
+    "exports": {
+      "databases": {
+        "keywords": "databases",
+        "location": "agent-docs/about-databases.md"
+      }
+    }
+  }
+}

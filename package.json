@@ -1,0 +1,49 @@
+{
+  "name": "agentsources",
+  "version": "0.0.3",
+  "description": "Dependencies for your AGENTS.md file",
+  "bin": {
+    "agentsources": "./dist/cli.js"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsx src/cli.ts",
+    "lint": "eslint src --ext .ts",
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "typecheck": "tsc --noEmit"
+  },
+  "keywords": [
+    "agents",
+    "docs",
+    "agents.md"
+  ],
+  "author": "Neon — Databricks",
+  "homepage": "https://github.com/guillaumervls/agentsources",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/guillaumervls/agentsources.git"
+  },
+  "license": "Apache-2.0",
+  "engines": {
+    "node": ">=22.0.0"
+  },
+  "dependencies": {
+    "commander": "^14.0.2",
+    "pkg-types": "^2.3.0",
+    "zod": "^4.3.6"
+  },
+  "devDependencies": {
+    "@types/node": "^22",
+    "@typescript-eslint/eslint-plugin": "^8.54.0",
+    "@typescript-eslint/parser": "^8.54.0",
+    "eslint": "^9.39.2",
+    "eslint-config-prettier": "^10.1.8",
+    "prettier": "^3.8.1",
+    "tsx": "^4.21.0",
+    "typescript": "^5.9.3"
+  }
+}

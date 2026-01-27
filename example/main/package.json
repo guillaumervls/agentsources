@@ -1,0 +1,11 @@
+{
+  "name": "main",
+  "dependencies": {
+    "dependency": "file:../dependency"
+  },
+  "agentsources": {
+    "imports": {
+      "dependency": {}
+    }
+  }
+}
